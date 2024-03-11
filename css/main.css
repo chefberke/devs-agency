@@ -613,9 +613,7 @@ nav .navigation ul li:hover {
   gap: 5rem;
 }
 
-.contact-title {
-  text-align: center;
-}
+
 
 .contact-form {
   flex: 0 0 30%;
@@ -642,29 +640,33 @@ nav .navigation ul li:hover {
   width: 100%;
   height: 2.5rem;
   border-bottom: 1px solid var(--blue-10);
+  border-radius: 1px;
  
 }
 
 .full-name div input::placeholder {
   color: #868686;
-  font-size: 1rem;
+  font-size: 0.9rem;
   font-weight: 300;
 }
 
-.full-name div input:focus {
+.full-name div input:focus,
+.textarea textarea:focus {
    outline: none;
 }
 
 .textarea textarea{
   resize: none;
+border: none;
+border-bottom: 1px solid var(--blue-10);
+border-radius: 1px;
   width: 100%;
-  border-radius: 10px;
 }
 
 textarea::placeholder {
   font-family: "Poppins", sans-serif;
-  font-size: 1rem;
-  padding: 0.2rem;
+  font-size: 0.9rem;
+  
 }
 
 .form-btn {
@@ -678,6 +680,12 @@ textarea::placeholder {
   background-color: var(--blue-8);
   color: var(--pure-white);
   padding: 1rem;
-  border-radius: 20px;
+  border-radius: 50px;
   font-size: 1.3rem;
+  transition: 0.5s ease-out all;
+}
+
+.form-btn button:hover {
+  cursor: pointer;
+  background-color: var(--blue-6);
 }
