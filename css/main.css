@@ -600,3 +600,84 @@ nav .navigation ul li:hover {
   font-size: 0.9rem;
   font-weight: 500;
 }
+
+/*
+*/
+
+.contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row-reverse;
+  margin-top: 10rem;
+  gap: 5rem;
+}
+
+.contact-title {
+  text-align: center;
+}
+
+.contact-form {
+  flex: 0 0 30%;
+  max-width: 30%;
+}
+
+.contact-map {
+  flex: 0 0 30%;
+  max-width: 30%;
+}
+
+.full-name {
+  display: flex;
+  margin-top: 2rem;
+  gap: 3rem;
+}
+
+.full-name div {
+  width: 100%;
+}
+
+.full-name div input {
+  border: none;
+  width: 100%;
+  height: 2.5rem;
+  border-bottom: 1px solid var(--blue-10);
+ 
+}
+
+.full-name div input::placeholder {
+  color: #868686;
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.full-name div input:focus {
+   outline: none;
+}
+
+.textarea textarea{
+  resize: none;
+  width: 100%;
+  border-radius: 10px;
+}
+
+textarea::placeholder {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  padding: 0.2rem;
+}
+
+.form-btn {
+  margin-top: 2rem;
+  width: 100%;
+}
+
+.form-btn button {
+  width: 100%;
+  border: none;
+  background-color: var(--blue-8);
+  color: var(--pure-white);
+  padding: 1rem;
+  border-radius: 20px;
+  font-size: 1.3rem;
+}
