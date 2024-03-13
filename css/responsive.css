@@ -1,0 +1,35 @@
+@media (max-width: 810px) {
+  .navigation ul li {
+    display: none;
+  }
+}
+
+@media (max-width: 500px) {
+  .header-content-description p {
+    padding: 0 4rem;
+  }
+
+  .devs-about-first-information {
+    padding: 0 2rem;
+    text-align: center;
+  }
+
+  .devs-about-first-title {
+    padding: 0 1rem;
+  }
+
+  .header-content .header-content-information {
+    padding-top: 1rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  .devs-about-second-icons-inside {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .devs-about-second-icons-inside:last-child {
+    display: none;
+  }
+}

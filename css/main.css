@@ -386,11 +386,17 @@ nav .navigation ul li:hover {
   justify-content: center;
   align-items: center;
   gap: 10rem;
-  margin-top: 10rem;
+  margin-top: 8rem;
 }
 
-.teammates-right,
+
 .teammates-left {
+  display: flex;
+  flex-direction: column;
+  gap: 1.9rem;
+}
+
+.teammates-right {
   display: flex;
   flex-direction: column;
   gap: 3rem;
@@ -609,8 +615,54 @@ nav .navigation ul li:hover {
   justify-content: center;
   align-items: center;
   flex-direction: row-reverse;
-  margin-top: 10rem;
+  margin-top: 4rem;
   gap: 5rem;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 5rem;
+}
+
+.footer p {
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+.footer span {
+  margin-top: 1rem;
+  color: var(--text);
+  text-align: center;
+  padding: 0 30rem;
+}
+
+.footer-social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.footer-social img {
+  transition: all 0.5s ease-out;
+  width: 30px;
+}
+
+.footer-social img:hover {
+  scale: 1.2;
+  cursor: pointer;
+}
+
+.nav-btn p a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: var(--pure-white);
 }
 
 
@@ -689,3 +741,4 @@ textarea::placeholder {
   cursor: pointer;
   background-color: var(--blue-6);
 }
+
