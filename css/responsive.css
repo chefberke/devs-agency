@@ -21,6 +21,10 @@
     font-size: 0.8rem !important;
   }
 
+  .header-content-information {
+    display: none;
+  }
+
   .header-content-user img {
     width: 200px !important;
   }
@@ -57,5 +61,19 @@
 
   .devs-about-second-icons-inside:last-child {
     display: none;
+  }
+
+  .boxes:first-child,
+  .boxes:last-child {
+    display: none !important;
+  }
+
+  .boxes {
+    flex: 0 0 60% !important;
+    max-width: 60% !important;
+  }
+
+  .what-we-offer {
+    margin-top: 3rem;
   }
 }
