@@ -69,11 +69,16 @@
   }
 
   .boxes {
-    flex: 0 0 60% !important;
-    max-width: 60% !important;
+    flex: 0 0 70% !important;
+    max-width: 70% !important;
+    height: 37rem !important;
   }
 
   .what-we-offer {
-    margin-top: 3rem;
+    margin-top: 1rem;
+  }
+
+  .what-we-offer-boxes {
+    align-items: normal;
   }
 }
