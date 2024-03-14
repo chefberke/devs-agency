@@ -9,6 +9,22 @@
     padding: 0 4rem;
   }
 
+  .header-content-title h1 {
+    font-size: 2.2rem !important;
+  }
+
+  .header-content-description p {
+    font-size: 0.8rem !important;
+  }
+
+  .header-content-user img {
+    width: 200px !important;
+  }
+
+  .header-content-information {
+    height: 100px;
+  }
+
   .devs-about-first-information {
     padding: 0 2rem;
     text-align: center;
