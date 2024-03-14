@@ -2,6 +2,10 @@
   .navigation ul li {
     display: none;
   }
+
+  .header-content {
+    height: 35rem;
+  }
 }
 
 @media (max-width: 500px) {
@@ -19,10 +23,6 @@
 
   .header-content-user img {
     width: 200px !important;
-  }
-
-  .header-content-information {
-    display: none;
   }
 
   .devs-about-first-information {
@@ -45,6 +45,10 @@
     max-width: 100%;
     padding: 2rem;
     margin: 2rem;
+  }
+
+  .devs-about {
+    margin-top: 3rem;
   }
 
   .devs-about-second-icons-inside:last-child {
