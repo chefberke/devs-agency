@@ -4,7 +4,7 @@
   }
 
   .header-content {
-    height: 35rem;
+    height: 30rem;
   }
 }
 
@@ -36,6 +36,10 @@
 
   .header-content .header-content-information {
     padding-top: 1rem;
+  }
+
+  .devs-about-first-information {
+    display: none;
   }
 }
 
